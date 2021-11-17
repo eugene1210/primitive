@@ -1,4 +1,4 @@
-package uz.primitive.controller.dto;
+package uz.primitive.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

@@ -1,5 +1,6 @@
-package uz.primitive.controller.dto;
+package uz.primitive.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -7,6 +8,6 @@ import lombok.Getter;
 @AllArgsConstructor
 public class AreaResponseDTO {
 
-    private Double area;
+    private String area;
 
 }

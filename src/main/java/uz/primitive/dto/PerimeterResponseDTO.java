@@ -1,4 +1,4 @@
-package uz.primitive.controller.dto;
+package uz.primitive.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,5 +7,5 @@ import lombok.Getter;
 @AllArgsConstructor
 public class PerimeterResponseDTO {
 
-    private Double perimeter;
+    private String perimeter;
 }

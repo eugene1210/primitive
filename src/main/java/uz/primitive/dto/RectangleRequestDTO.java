@@ -1,4 +1,4 @@
-package uz.primitive.controller.dto;
+package uz.primitive.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,9 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class SquareRequestDTO {
+public class RectangleRequestDTO {
 
     private Double width;
+    private Double height;
 
 }
